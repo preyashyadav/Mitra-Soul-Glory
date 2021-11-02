@@ -1,10 +1,19 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Courgette&display=swap');
+/*font-family: 'Cinzel Decorative', cursive;
+font-family: 'Courgette', cursive;*/
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* -------------------------------------- Header ------------------------------------------- */
 .intro{
     position: relative;
     width: 100%;
@@ -23,6 +32,73 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20%;
+    /* border-radius: 20%; */
+}
 
+.bg-video img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    mix-blend-mode: screen;
+}
+
+.main-head{
+    z-index: 3;
+    font-size: 4rem;
+    color: white;
+}
+
+/* //////////////////  Intro heading \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */  
+
+#intro-head{
+    position: absolute;
+    width: 80%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+      /* position: absolute; */
+      font-size: 6rem;
+      /* z-index: 3; */
+      text-decoration: none;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
+  } 
+  
+     
+    /* Now we are going to import the animation and the animation color after
+    Hover */
+   #intro-head{
+      color: #fff;
+      -webkit-animation: neon1 1.5s ease-in-out infinite alternate; 
+    /*   This neon1 is the function for the color change */
+      -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+      animation: neon1 1.5s ease-in-out infinite alternate;
+      /* font-family: 'Cinzel Decorative', cursive; */
+      font-family: 'Cinzel Decorative', cursive;
+      font-family: 'Courgette', cursive;
+      
+    }
+      /* This is the function that causes keyframe animation */
+  @-webkit-keyframes neon1 {
+    /*   This from means the animation starts from here */
+      from {
+        text-shadow: 0 0 5px rgb(179, 174, 174), 0 0 10px rgb(3, 230, 247), 0 0 15px #1427d1, 0 0 20px #09bbe7, 0 0 25px #0082fc, 0 0 30px #06006f, 0 0 35px #1511ff, 0 0 150px #130d64;
+      }
+      to {
+        text-shadow: 0 0 5px rgb(179, 174, 174), 0 0 10px rgb(3, 230, 247), 0 0 15px rgb(20, 39, 209), 0 0 20px #09bbe7, 0 0 35px #0082fc, 0 0 40px #06006f, 0 0 50px #1511ff, 0 0 75px #130d64;
+      }
+    }
+
+
+/*------------------------------------------------------ Section-------------------------------------------- */
+
+.content{
+    padding: 2rem;
+    text-align: justify;
+    margin:20px;
+    border:solid 20px blue;
 }
