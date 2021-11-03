@@ -117,7 +117,7 @@ font-family: 'Poppins', sans-serif;*/
 section{
   margin-top: 100px;
   color: white;
-  background-image: url("/static/images/frnds7.jpg");
+  background: linear-gradient(rgba(235, 43, 241, 0.479),rgba(0, 0, 0, 0.233)), url(../images/frnds5.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
