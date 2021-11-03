@@ -133,6 +133,7 @@ font-family: 'Poppins', sans-serif;*/
     /* padding: 2rem; */
     text-align: justify;
     margin:20px;
+    margin-top: 100px;
     /* border:solid 20px blue; */
 }
 
@@ -140,7 +141,19 @@ font-family: 'Poppins', sans-serif;*/
 /* ------------------------------------------------Footer------------------------------------------------------- */
 
 footer{
+  margin-top: 100px;
   height: 200px;
   border: 2px black solid;
   background-color: black;
+  text-align: center;
+}
+
+footer ul{
+  list-style: none;
+  color: white;
+  display: block;
+}
+
+footer ul li{
+  display: inline-block;
 }
