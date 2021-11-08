@@ -2,3 +2,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Courgette&family=Poppins:wght@300&display=swap');
+
+footer{
+  /* margin-top: 100px; */
+  /* height: 200px; */
+  /* border: 2px black solid; */
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+footer ul{
+  list-style: none;
+  display: block;
+  padding-left: 0px !important;
+}
+
+footer ul li{
+  display: inline-block;
+  padding: 1rem;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+  .logo img{
+    height: 60px;
+  }
+
+  .navbar {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .intro{
+    min-height: 75vh;
+  }
+
+  #intro-head{
+    font-size: 6rem;
+  }
+  section{
+    padding: 0.25rem;
+    font-weight: 400;
+  }
+
+  .section-heading1{
+    font-size: 2rem;
+  }
+  .content{
+    font-size: 1rem;
+  }
+}
+
+.footer-icon{
+}
