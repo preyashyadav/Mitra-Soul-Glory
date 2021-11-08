@@ -91,33 +91,24 @@ font-family: 'Poppins', sans-serif;*/
       font-family: 'Poppins', sans-serif;
       font-weight: bolder;
   } 
-  
 
-
-  /* #intro-head{
-      color: #fff;
-      -webkit-animation: neon1 1.5s ease-in-out infinite alternate; 
-
-      -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-      animation: neon1 1.5s ease-in-out infinite alternate;
-      
-      
-    }
-  @-webkit-keyframes neon1 {
-      from {
-        text-shadow: 0 0 5px rgb(179, 174, 174), 0 0 10px rgb(3, 230, 247), 0 0 15px #1427d1, 0 0 20px #09bbe7, 0 0 25px #0082fc, 0 0 30px #06006f, 0 0 35px #1511ff, 0 0 150px #130d64;
-      }
-      to {
-        text-shadow: 0 0 5px rgb(179, 174, 174), 0 0 10px rgb(3, 230, 247), 0 0 15px rgb(20, 39, 209), 0 0 20px #09bbe7, 0 0 35px #0082fc, 0 0 40px #06006f, 0 0 50px #1511ff, 0 0 75px #130d64;
-      }
-    }
-*/
 
 /*------------------------------------------------------ Section-------------------------------------------- */
+/* .section1{
+  margin-top: 100px;
+  color: white;
+  background: linear-gradient(rgba(234, 43, 241, 0.452),rgba(0, 0, 0, 0.384)), url(../images/mountain1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+  font-weight: bold;
+} */
+
 section{
   margin-top: 100px;
   color: white;
-  background: linear-gradient(rgba(235, 43, 241, 0.479),rgba(0, 0, 0, 0.233)), url(../images/frnds5.jpg);
+  background: linear-gradient(rgba(145, 43, 241, 0.548),rgba(0, 0, 0, 0.473)), url(../images/mountain3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -125,6 +116,9 @@ section{
   font-weight: bold;
 }
 
+.section1, .section2{
+  margin-bottom: 100px;
+}
 
 
 .content{
@@ -140,7 +134,7 @@ hr{
   margin-left: 25%;
 }
 .para1{
-  border: solid 2px black;
+  border: solid 2px rgb(255, 255, 255);
   padding: 1rem;
   border-bottom: 0px;
   border-right: 0px;
@@ -149,7 +143,7 @@ hr{
 }
 
 .para2{
-  border: solid 2px black;
+  border: solid 2px rgb(255, 255, 255);
   padding: 1rem;
   border-top: 0px;
   border-left: 0px;
@@ -200,11 +194,15 @@ footer ul li{
     text-align: center;
   }
 
+  .intro{
+    min-height: 75vh;
+  }
+
   #intro-head{
     font-size: 6rem;
   }
   section{
-    padding: 0.5rem;
+    padding: 0.25rem;
     font-weight: 400;
   }
 
