@@ -1,97 +1,93 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Courgette&display=swap");
 /*font-family: 'Cinzel Decorative', cursive;
 font-family: 'Courgette', cursive;*/
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Courgette&family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Courgette&family=Poppins:wght@300&display=swap");
 /* font-family: 'Cinzel Decorative', cursive;
 font-family: 'Courgette', cursive;
 font-family: 'Poppins', sans-serif;*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* -------------------------------------- Header ------------------------------------------- */
 
 /* Navbar */
-.navbar{
-    background-color: transparent;
-    z-index: 3;
-    position: relative;
-    width: 100%;
-    font-size: 2rem;
-    font-family: 'Cinzel Decorative', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
+.navbar {
+  background-color: transparent;
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  font-size: 2rem;
+  font-family: "Cinzel Decorative", cursive;
+  font-family: "Courgette", cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
 }
 
-.navbar li{
-  margin-right : 1rem;
+.navbar li {
+  margin-right: 1rem;
 }
 
-.logo img{
+.logo img {
   height: 90px;
 }
 
-
-.intro{
-    position: relative;
-    width: 100%;
-    min-height: 85vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-
+.intro {
+  position: relative;
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
 }
 
-.bg-video video{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* border-radius: 20%; */
+.bg-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* border-radius: 20%; */
 }
 
-.bg-video img{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 2;
-    mix-blend-mode: screen;
+.bg-video img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  mix-blend-mode: screen;
 }
 
+/* //////////////////  Intro heading \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
-/* //////////////////  Intro heading \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */  
-
-#intro-head{
-      position: absolute;
-      width: 80%;
-      transform: translate(-50%,-50%);
-      text-align: center;
-      font-size: 14rem;
-      text-decoration: none;
-      -webkit-transition: all 0.5s;
-      -moz-transition: all 0.5s;
-      transition: all 0.5s;
-      color: white;
-      font-family: 'Cinzel Decorative', cursive;
-      font-family: 'Courgette', cursive;
-      font-family: 'Poppins', sans-serif;
-      font-weight: bolder;
-  } 
-
+#intro-head {
+  position: absolute;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 14rem;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  color: white;
+  font-family: "Cinzel Decorative", cursive;
+  font-family: "Courgette", cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
 
 /*------------------------------------------------------ Section-------------------------------------------- */
 /* .section1{
@@ -105,10 +101,10 @@ font-family: 'Poppins', sans-serif;*/
   font-weight: bold;
 } */
 
-section{
+section {
   margin-top: 100px;
   color: white;
-  background: linear-gradient(rgba(145, 43, 241, 0.548),rgba(0, 0, 0, 0.473)), url(../images/mountain3.jpg);
+  background: black;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -116,51 +112,47 @@ section{
   font-weight: bold;
 }
 
-.section1, .section2{
+.section1,
+.section2 {
   margin-bottom: 100px;
 }
 
-
-.content{
-    padding: 2rem;
-    text-align: justify;
-    margin:30px;
-    /* margin-bottom: 50px; */
-    /* border:solid 20px blue; */
+.content {
+  padding: 2rem;
+  text-align: justify;
+  margin: 30px;
+  /* margin-bottom: 50px; */
+  /* border:solid 20px blue; */
 }
 
-hr{
-  width:50%;
+hr {
+  width: 50%;
   margin-left: 25%;
 }
-.para1{
+.para1 {
   border: solid 2px rgb(255, 255, 255);
   padding: 1rem;
   border-bottom: 0px;
   border-right: 0px;
-
-  
 }
 
-.para2{
+.para2 {
   border: solid 2px rgb(255, 255, 255);
   padding: 1rem;
   border-top: 0px;
   border-left: 0px;
 }
 
-.section-heading1{
+.section-heading1 {
   font-size: 3rem;
   color: white;
   text-align: center;
   font-weight: bolder;
 }
 
-
-
 /* ------------------------------------------------Footer------------------------------------------------------- */
 
-footer{
+footer {
   /* margin-top: 100px; */
   /* height: 200px; */
   /* border: 2px black solid; */
@@ -170,22 +162,21 @@ footer{
   padding: 1rem;
 }
 
-footer ul{
+footer ul {
   list-style: none;
   display: block;
   padding-left: 0px !important;
 }
 
-footer ul li{
+footer ul li {
   display: inline-block;
   padding: 1rem;
 }
 
-
 /* ----------------------------------Responsivness------------------------------- */
 
-@media screen and (max-width:480px) {
-  .logo img{
+@media screen and (max-width: 480px) {
+  .logo img {
     height: 60px;
   }
 
@@ -194,22 +185,22 @@ footer ul li{
     text-align: center;
   }
 
-  .intro{
+  .intro {
     min-height: 75vh;
   }
 
-  #intro-head{
+  #intro-head {
     font-size: 6rem;
   }
-  section{
+  section {
     padding: 0.25rem;
     font-weight: 400;
   }
 
-  .section-heading1{
+  .section-heading1 {
     font-size: 2rem;
   }
-  .content{
+  .content {
     font-size: 1rem;
   }
 }
