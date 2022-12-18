@@ -68,6 +68,7 @@ font-family: 'Poppins', sans-serif;*/
   object-fit: cover;
   z-index: 2;
   mix-blend-mode: screen;
+  border: black 20px solid;
 }
 
 /* //////////////////  Intro heading \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
@@ -90,21 +91,22 @@ font-family: 'Poppins', sans-serif;*/
 }
 
 /*------------------------------------------------------ Section-------------------------------------------- */
-/* .section1{
-  margin-top: 100px;
+.section {
+  /* margin-top: 100px; */
   color: white;
-  background: linear-gradient(rgba(234, 43, 241, 0.452),rgba(0, 0, 0, 0.384)), url(../images/mountain1.jpg);
+  background: linear-gradient(rgba(28, 28, 28, 0.452), rgba(0, 0, 0, 0.384)),
+    url(../images/mountain1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 2rem;
   font-weight: bold;
-} */
+}
 
 section {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   color: white;
-  background: black;
+  /* background: black; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
